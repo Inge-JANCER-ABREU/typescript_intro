@@ -2,16 +2,15 @@
 
 # que es typescript
 ##### TypeScript es un superconjunto de JavaScript que añade tipado estático opcional y funciones avanzadas a JavaScript. Ha sido desarrollado por Microsoft y se publicó por primera vez en octubre de 2012
-// src/main.ts
-const greeting: string = "Hola, mundo!";
-console.log(greeting);
 
-# Static type-checking
-###### (STC) proporciona información sobre si su script está escrito correctamente.
 
-Groovy es un lenguaje dinámico, lo que significa que los nombres de métodos y propiedades se buscan cuando se ejecuta el código, no cuando se compila (como Java).
+#### Static type-checking
+TypeScript proporciona un sistema de tipado estático que permite detectar errores en tiempo de compilación, mejorando la robustez y mantenibilidad del código.
 
-Veamos el siguiente script simple pero completo:
+```typescript
+function greet(name: string) {
+    return "Hello, " + name + "!";
+}
 
-foo.bar()
-
+// Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+// greet(42); 
