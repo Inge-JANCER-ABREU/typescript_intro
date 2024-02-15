@@ -16,5 +16,6 @@ function greet(name: string) {
 // greet(42); 
 
 
-Non-exception Failures
+
+#### Static type-checking
 En lugar de depender de excepciones, TypeScript utiliza un enfoque de manejo de errores no excepcional, lo que significa que los errores de tipo se tratan como fallos normales durante la compilación.
