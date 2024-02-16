@@ -1,6 +1,6 @@
 # typescript_intro
 
-# que es typescript
+# Que es typescript
 ##### TypeScript es un superconjunto de JavaScript que añade tipado estático opcional y funciones avanzadas a JavaScript. Ha sido desarrollado por Microsoft y se publicó por primera vez en octubre de 2012
 
 
