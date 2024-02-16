@@ -14,6 +14,12 @@ function greet(name: string) {
 
 // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
 // greet(42); 
+```
+#Non-exception Failures
+
+En lugar de depender de excepciones, TypeScript utiliza un enfoque de manejo de errores no excepcional, lo que significa que los errores de tipo se tratan como fallos normales durante la compilación.
+
+
 
 
 
